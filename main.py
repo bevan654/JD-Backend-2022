@@ -179,3 +179,6 @@ print('testing')
 endpoints = ['https://prod.jdgroupmesh.cloud/stores/jdsportsau/products/category/women/womens-footwear?channel=iphone-app&max=2000','https://prod.jdgroupmesh.cloud/stores/jdsportsau/products/category/men/mens-footwear?channel=iphone-app&max=2000','https://prod.jdgroupmesh.cloud/stores/jdsportsauf/products/category/kids/junior-footwear-(sizes-3.5-7)/all-trainers?channel=iphone-app&max=2000']
 for i in endpoints:
 	threading.Thread(target=Monitor,args=(i,)).start()
+
+
+print('ok')
